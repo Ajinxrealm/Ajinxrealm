@@ -1,0 +1,6 @@
+# In order to convert PGM files into PNG format on windows, follow this procedure:
+1. Download MobaXterm "https://mobaxterm.mobatek.net/" to use the Linux Terminal.
+2. Install ImageMagick using "apt-get install ImageMagick"
+3. Change directory where PGM files are stored.
+4. Use the command "mogrify -format png *.pgm".
+5. As simple as that!
